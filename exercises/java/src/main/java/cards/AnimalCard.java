@@ -1,6 +1,6 @@
 package cards;
 
-public class AnimalCard {
+public class AnimalCard implements Card{
 
     private final Animal animal;
 
@@ -8,8 +8,9 @@ public class AnimalCard {
         this.animal = animal;
     }
 
-    public boolean snap( AnimalCard otherCard ){
-        return otherCard != null && this.animal.equals(otherCard.animal);
+    public boolean snap(Card otherCard ){
+
+        return otherCard != null && this.animal.toString().equals(otherCard.toString());
     }
 
     @Override
