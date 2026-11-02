@@ -1,6 +1,16 @@
 package cards;
 
-public interface Deck {
-    void shuffle();
+import java.util.Collection;
+
+public class Deck {
+ //   List<Card> cards;
+
+    public void shuffle(){
+        Collections.shuffle(cards);
+    }
+
+    public Card deal(){
+
+    }
 
 }
