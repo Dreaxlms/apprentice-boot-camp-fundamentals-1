@@ -1,5 +1,3 @@
-package cards;
-
 public class Cards {
     public static void main(String[] args) {
         Cards cards = new Cards();

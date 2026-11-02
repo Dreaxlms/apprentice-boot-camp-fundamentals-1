@@ -1,5 +1,3 @@
-package checkout;
-
 public class Receipt {
 
     private String text = "";

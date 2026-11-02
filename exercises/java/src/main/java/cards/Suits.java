@@ -1,5 +1,3 @@
-package cards;
-
 public class Suits {
 
     String suit;

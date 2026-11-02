@@ -1,5 +1,3 @@
-package cat;
-
 public class Main {
     static void main() {
         Cat blackCat = new Cat();

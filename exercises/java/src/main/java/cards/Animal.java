@@ -1,5 +1,3 @@
-package cards;
-
 enum Animal {
     AARDVARK,
     BABOON,

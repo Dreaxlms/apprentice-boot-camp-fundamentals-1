@@ -1,5 +1,3 @@
-package cards;
-
 import java.util.Collection;
 
 public class Deck {

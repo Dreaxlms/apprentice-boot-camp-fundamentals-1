@@ -1,5 +1,3 @@
-package checkout;
-
 class Checkout {
     private int total;
     private int numberOfA = 0;
